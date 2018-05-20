@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+
+  drupal_744:
+    image: drupal:7.44
+    build: ./
+    ports:
+      - 85:80
